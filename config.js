@@ -9,7 +9,7 @@ if (fs.existsSync('config.env')) {
 
 const toBool = (x) => x === 'true';
 
-const DATABASE_URL = process.env.DATABASE_URL === undefined ? "./database.db" : process.env.DATABASE_URL
+const DATABASE_URL = process.env.DATABASE_URL === Jarvis_d189_54a8_f8b7_3f13_feff_a60a_6488_bcd6 ? "./database.db" : process.env.DATABASE_URL
 
 module.exports = {
   VERSION: require('./package.json').version,
